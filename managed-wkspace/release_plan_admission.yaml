@@ -1,0 +1,9 @@
+apiVersion: appstudio.redhat.com/v1alpha1
+kind: ReleasePlanAdmission
+metadata:
+  name: bcook-yara-image-rpa
+  namespace: bcook-managed-tenant
+spec:
+  application: yara-image
+  origin: brianwcook-tenant
+  releaseStrategy: push-to-external-registry-strategy
